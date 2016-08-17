@@ -1,57 +1,2142 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Xiaomi by PrettyGarden</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Xiaomi</h1>
-      <h2 class="project-tagline">小米主页demo</h2>
-      <a href="https://github.com/PrettyGarden/xiaomi" class="btn">View on GitHub</a>
-      <a href="https://github.com/PrettyGarden/xiaomi/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/PrettyGarden/xiaomi/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>xiaomi</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+</head>
+<body>
+	<!-- topbar -->
+	<div class="topbar">
+		<div class="container">
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+			<div class="topbar-nav">
+				<a href="#">小米网</a>
+				<span class="sep">|</span>
+				<a href="#">MIUI</a>
+				<span class="sep">|</span>
+				<a href="#">米聊</a>
+				<span class="sep">|</span>
+				<a href="#">游戏</a>
+				<span class="sep">|</span>
+				<a href="#">多看阅读</a>
+				<span class="sep">|</span>
+				<a href="#">云服务</a>
+				<span class="sep">|</span>
+				<a href="#">小米网移动版</a>
+				<span class="sep">|</span>
+				<a href="#">问题反馈</a>
+				<span class="sep">|</span>
+				<a href="#">Select Region</a>
+			</div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+			<div class="topbar-right">
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+				<div id="userInfo">
+					<a href="#">登陆</a>
+					<span class="sep">|</span>
+					<a href="#">注册</a>
+				</div>	
+				<div id="shopCart">
+					<a href="#">购物车<span id="cartNum">(0)</span></a>
+					<div class="cart-menu" id="cartMenu">
+						<p>购物车中还没有商品，赶紧选购吧！</p>
+					</div>
+				</div>
+			
+			</div>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+		</div>
+	</div>
+	
+	<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="header-logo">
+				<a href="#"><img src="img/logo-header.png"></a>
+				<a href="#"><img src="img/doodle0507.gif"></a>
+			</div>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+			<div class="header-nav">
+				<ul class="nav-list clear">
+					<li class="nav-item">小米手机</li>
+					<li class="nav-item">红米</li>
+					<li class="nav-item">平板</li>
+					<li class="nav-item">电视</li>
+					<li class="nav-item">盒子<span>.</span>影音</li>
+					<li class="nav-item">路由器</li>
+					<li class="nav-item">智能硬件</li>
+					<li class="nav-item">服务</li>
+					<li class="nav-item">社区</li>
+				</ul>
+			</div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+			<div class="header-search">
+				<form class="search-form" aciton="">
+					<input class="search-input" type="text" />
+					<input type="submit" class="search-btn" value="" />
+					<div class="search-hot-words"><a href="#">小米手机4c</a><a href="#">小米Max</a></div>
+				</form>
+			</div>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+		</div>
+		
+		<!-- header-nav-content -->
+		<div id="header-nav-con">
+			<div class="wrap">
+				<ul class="navCon clear">
+					<li class="first">
+						<div class="pic"><a href="#"><img src="img/header-nav/1/maxdingbu!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米Max</a></div>
+						<p>1499元起</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/1/mi5!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米手机5</a></div>
+						<p>1999元起</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/1/mi4s!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米手机4S</a></div>
+						<p>1699元起</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/1/mi4c!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米手机4c</a></div>
+						<p>1099元起</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/1/mi4!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米手机4</a></div>
+						<p>1299元起</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/1/minote!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米Note 标准版</a></div>
+						<p>1499元起</p>
+					</li>					
+				</ul>
+				<ul class="navCon clear">
+					<li class="first">
+						<div class="pic"><a href="#"><img src="img/header-nav/2/note3!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">红米Note 3</a></div>
+						<p>899元起</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/2/hongmi3!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">红米手机3</a></div>
+						<p>699元起</p>
+					</li>
+				</ul>
+				<ul class="navCon clear">
+					<li class="first">
+						<div class="pic"><a href="#"><img src="img/header-nav/3/mipad2-16!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米平板2 16GB</a></div>
+						<p>999元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/3/mipad2-64!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米平板2 64GB</a></div>
+						<p>1299元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/3/mipad2-64-win!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米平板2 64GB Windows版</a></div>
+						<p>1299元</p>
+					</li>
+				</ul>
+				<ul class="navCon clear">
+					<li class="first">
+						<div class="pic"><a href="#"><img src="img/header-nav/4/mitv3s-43!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米电视3S 43英寸</a></div>
+						<p>1799元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/4/mitv3s48!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米电视3S 48英寸</a></div>
+						<p>1999元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/4/mitv355!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米电视3 55英寸</a></div>
+						<p>3999元起</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/4/mitv3-60!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米电视3 60英寸</a></div>
+						<p>4999元起</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/4/mitv3s-65!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米电视3S 65英寸 曲面</a></div>
+						<p>8999元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/4/mitv70!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米电视3 70英寸 标准版</a></div>
+						<p>9999元</p>
+					</li>					
+				</ul>
+				<ul class="navCon clear">
+					<li class="first">
+						<div class="pic"><a href="#"><img src="img/header-nav/5/hezimini.png" alt=""></a></div>						
+						<div><a href="#">小米盒子mini版</a></div>
+						<p>199元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/5/hezi3.png" alt=""></a></div>						
+						<div><a href="#">小米盒子3</a></div>
+						<p>299元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/5/hezi3s!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米盒子3 增强版</a></div>
+						<p>399元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/5/zhuji!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米电视主机</a></div>
+						<p>999元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/5/jinshuban!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米家庭音响 金属版</a></div>
+						<p>899元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/5/putonban!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米家庭音响 标准版 标准版</a></div>
+						<p>699元起</p>
+					</li>					
+				</ul>
+				<ul class="navCon clear">
+					<li class="first">
+						<div class="pic"><a href="#"><img src="img/header-nav/6/miwifi!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">全新小米路由器</a></div>
+						<p>699元起</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/6/miwifi-3!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米路由器 3</a></div>
+						<p>149元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/6/miwifimini!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米路由器 mini</a></div>
+						<p>129元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/6/miwifilite!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米路由器 青春版</a></div>
+						<p>79元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/6/wifiExtension!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米WiFi放大器</a></div>
+						<p>39元</p>
+					</li>				
+				</ul>
+				<ul class="navCon clear">
+					<li class="first">
+						<div class="pic"><a href="#"><img src="img/header-nav/7/dianfanbao!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">米家压力IH电饭煲</a></div>
+						<p>999元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/7/scooter!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">九号平衡车</a></div>
+						<p>1999元起</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/7/air2!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">小米空气净化器 2</a></div>
+						<p>699元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/7/scale!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">体重秤</a></div>
+						<p>99元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/7/xiaoyi!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">摄像机</a></div>
+						<p>149元</p>
+					</li>
+					<li>
+						<div class="pic"><a href="#"><img src="img/header-nav/7/smart!160x110.jpg" alt=""></a></div>						
+						<div><a href="#">查看全部 <br />智能硬件</a></div>
+					</li>					
+				</ul>
+			</div>
+		</div>
 
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+	</div>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+	<!-- main -->
+	<div class="main">
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/PrettyGarden/xiaomi">Xiaomi</a> is maintained by <a href="https://github.com/PrettyGarden">PrettyGarden</a>.</span>
+		<div class="main-top">
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+			<!-- banner box -->
+			<div class="main-banner">
+					
+					<div class="side-nav">
+						<ul class="side-nav-menu">
+							<li class="nav-li">
+								<a class="nav-a" href="#">手机 平板 电话卡</a>
+								<span class="nav-span">></span>
+								<div class="side-nav-con">
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/mi5bar80.jpg"><span>小米手机5</span></a>
+											<a class="shop" href="#">选购</a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/4sbar80.jpg"><span>小米手机4S</span></a>
+											<a class="shop" href="#">选购</a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/maxbar80.jpg"><span>小米Max</span></a>
+											<a class="shop" href="#">选购</a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/minote.jpg"><span>小米Note</span></a>
+											<a class="shop" href="#">选购</a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/mi4.jpg"><span>小米手机4</span></a>
+											<a class="shop" href="#">选购</a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/mi4c.jpg"><span>小米手机4c</span></a>
+											<a class="shop" href="#">选购</a>
+										</li>
+									</ul>	
+							
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/note3.jpg"><span>红米Note 3</span></a>
+											<a class="shop" href="#">选购</a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/hongmi3.jpg"><span>红米手机3</span></a>
+											<a class="shop" href="#">选购</a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/pad2.png"><span>小米平板2</span></a>
+											<a class="shop" href="#">选购</a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/telcom.jpg"><span>电信版</span></a>
+											<a class="shop" href="#">选购</a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/heyue.jpg"><span>合约机</span></a>
+											<a class="shop" href="#">选购</a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/compare.jpg"><span>对比手机</span></a>
+											<a class="shop" href="#">选购</a>
+										</li>
+									</ul>	
+							
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/1/mimobile.jpg"><span>小米移动电话卡</span></a>
+										</li>
+									</ul>	
 
-    </section>
+								</div>
+							</li>
+							<li class="nav-li">
+								<a class="nav-a" href="#">电视 盒子</a>
+								<span class="nav-span">></span>
+								<div class="side-nav-con">
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/4380side.jpg"><span>小米电视 43英寸</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/mitv3s48.jpg"><span>小米电视 48英寸</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/tv3-55.jpg"><span>小米电视 55英寸</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/tv60.jpg"><span>小米电视 60英寸</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/6580side.jpg"><span>小米电视 65英寸</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/tv70.png"><span>小米电视 70英寸</span></a>
+										</li>
+									</ul>
 
-  
-  </body>
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/tvzj.jpg"><span>小米电视主机</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/hezizengqiangban80side.jpg"><span>小米盒子3 增强版</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/hezis.jpg"><span>小米盒子3</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/hezimini.jpg"><span>小米盒子 mini</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/diyinpao.jpg"><span>小米低音炮</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/shb.jpg"><span>蓝牙手柄</span></a>
+										</li>
+									</ul>
+
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/zuheyinxiang80side.jpg"><span>家庭音响</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/2/dianshipeijian.jpg"><span>电视盒子配件</span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							
+							<li class="nav-li">
+								<a class="nav-a" href="#">路由器 智能硬件</a>
+								<span class="nav-span">></span>
+								<div class="side-nav-con">
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/luyouqi-80.jpg"><span>小米路由器</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/scooter.jpg"><span>九号平衡车</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/dianfanbao-80.jpg"><span>米家压力IH电饭煲</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/yicamera.jpg"><span>运动相机</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/shoubiao3-80.jpg"><span>米兔儿童电话手表</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/xueyaji-80.jpg"><span>血压计</span></a>
+										</li>
+									</ul>
+
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/air2.jpg"><span>空气净化器2</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/jingshuiqiandlvxin-80.jpg"><span>净水器及滤芯</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/xiaoyi.jpg"><span>摄像机</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/zhinengdeng-80.jpg"><span>智能灯</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/socket80side.jpg"><span>智能插座 基础版</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/zhinengjiatingtaozhuang-80.jpg"><span>智能家庭组合</span></a>
+										</li>
+									</ul>
+
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/lvxin80.jpg"><span>净水器滤芯</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/shouhuan.jpg"><span>手环及配件</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/scale.jpg"><span>体重秤</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/wifiplus.jpg"><span>WiFi放大器</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/3/smart.jpg"><span>全部智能硬件</span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="nav-li">
+								<a class="nav-a" href="#">移动电源 插线板</a>
+								<span class="nav-span">></span>
+
+								<div class="side-nav-con">
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/4/dianyuan.jpg"><span>小米电视移动电源</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/4/powerscript.jpg"><span>小米电视插线板</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/4/yidongdianyuan.jpg"><span>品牌移动电源</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/4/dianyuanfujian.jpg"><span>移动电源附件</span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="nav-li">
+								<a class="nav-a" href="#">耳机 音箱</a>
+								<span class="nav-span">></span>
+								<div class="side-nav-con">
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/headphone.jpg"><span>小米头戴式耳机</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/quantie.jpg"><span>小米圈铁耳机</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/huosai.jpg"><span>小米活塞耳机 标准版</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/jichuban-80.jpg"><span>小米活塞耳机 基础版</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/bluetoothheadset.jpg"><span>小米蓝牙耳机</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/erji.jpg"><span>品牌耳机</span></a>
+										</li>
+									</ul>
+
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/pocketaudio.png"><span>小米蓝牙音箱</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/suishen-80.jpg"><span>小米随身蓝牙音箱</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/xiaogangpao2-hei-80.jpg"><span>小钢炮音箱 2</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/qignchungangpao-80.jpg"><span>小钢炮音箱 青春版</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/fanghezi.jpg"><span>小米方盒子音箱</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/radio80side.jpg"><span>网络收音机</span></a>
+										</li>
+									</ul>
+
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/5/pinpaiyinxiang.jpg"><span>品牌音箱</span></a>
+										</li>
+									</ul>
+								</div>
+
+							</li>
+							<li class="nav-li">
+								<a class="nav-a" href="#">电池 储存卡</a>
+								<span class="nav-span">></span>
+								<div class="side-nav-con">
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/6/5Battery1.jpg"><span>彩虹5号电池</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/6/7Battery1.jpg"><span>彩虹7号电池</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/6/dianchi.jpg"><span>电池</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/6/chongdianqi-80.jpg"><span>充电器</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/6/xiancai.jpg"><span>线材</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/6/cunchu.jpg"><span>储存卡</span></a>
+										</li>
+									</ul>
+								</div>
+
+							</li>
+							<li class="nav-li">
+								<a class="nav-a" href="#">保护套 后盖</a>
+								<span class="nav-span">></span>
+								<div class="side-nav-con">
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/7/baohu.jpg"><span>保护套/保护壳</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/7/hougai.jpg"><span>后盖</span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="nav-li">
+								<a class="nav-a" href="#">贴膜 其他配件</a>
+								<span class="nav-span">></span>
+								<div class="side-nav-con">
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/8/tiemo.jpg"><span>贴膜</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/8/zipaigan.jpg"><span>自拍杆</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/8/tizhi.jpg"><span>贴纸</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/8/fangchensai.jpg"><span>防尘塞</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/8/zhijia.jpg"><span>手机支架</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/8/wifi.jpg"><span>随身WiFi</span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="nav-li">
+								<a class="nav-a" href="#">米兔 服装</a>
+								<span class="nav-span">></span>
+								<div class="side-nav-con">
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/9/mitu-80.jpg"><span>米兔</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/9/fuzhuang-80.jpg"><span>服装</span></a>
+										</li>
+								</div>
+							</li>
+							<li class="nav-li">
+								<a class="nav-a" href="#">箱包 其他周边</a>
+								<span class="nav-span">></span>
+								<div class="side-nav-con">
+									<ul>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/10/xiangbao-80.jpg"><span>箱包</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/10/lvxingxiang.jpg"><span>90分旅行箱</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/10/shubiaodian-80.jpg"><span>小米鼠标垫</span></a>
+										</li>
+										<li class="clear">
+											<a class="img" href="#"><img src="img/side-nav-con/10/zhoubian1.jpg"><span>生活周边</span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="tab-banner">
+
+						<div class="circle-list">
+							<span class="circle"></span>
+							<span class="circle"></span>
+							<span class="circle"></span>
+							<span class="circle"></span>
+							<span class="circle"></span>
+						</div>
+
+						<div class="btn">
+							<div class="prev"></div>
+							<div class="next"></div>
+						</div>						
+						
+						<div class="banner-pic"><a href="#"><img src="img/banner/1.jpg" alt=""></a></div>
+						<div class="banner-pic"><a href="#"><img src="img/banner/2.jpg" alt=""></a></div>
+						<div class="banner-pic"><a href="#"><img src="img/banner/3.jpg" alt=""></a></div>
+						<div class="banner-pic"><a href="#"><img src="img/banner/4.jpg" alt=""></a></div>
+						<div class="banner-pic"><a href="#"><img src="img/banner/5.jpg" alt=""></a></div>
+						
+					</div>
+
+			</div>
+
+			<div class="ad clear">
+				<div class="left">
+					<ul class="clear">
+						<li><a href="#">电信专场</a></li>
+						<li><a href="#">企业团购</a></li>
+						<li><a href="#">官翻产品</a></li>
+						<li><a href="#">小米移动</a></li>
+						<li><a href="#">以旧换新</a></li>
+						<li><a href="#">话费充值</a></li>
+					</ul>
+				</div>
+				<div class="right">
+					<div><a href="#"><img src="img/ad/T1pSKjBbxT1RXrhCrK.jpg" alt=""></a></div>
+					<div><a href="#"><img src="img/ad/T1aWVgBydv1RXrhCrK.jpg" alt=""></a></div>
+					<div><a href="#"><img src="img/ad/T1MGJ_BbAv1RXrhCrK.jpg" alt=""></a></div>
+				</div>
+			</div>
+			
+			<!-- hero product -->
+			<div class="hero" id="hero">
+				<div class="title-section-1 clear">
+					<h2>小米明星单品</h2>
+					<p>
+						<span class="prev"></span>
+						<span class="next"></span>
+					</p>
+				</div>
+
+				<div class="hero-wrap clear">
+					<ul>
+						<li>
+							<a class="bd-color1" href="#">
+								<img src="img/hero/1.jpg" alt="">
+								<em>小米盒子3 增强版</em>
+								<span>高端4K网络机顶盒</span>
+								<strong>399元</strong>
+							</a>
+						</li>
+						<li>
+							<a class="bd-color2" href="#">
+								<img src="img/hero/2.jpg" alt="">
+								<em>小米手环 光感版</em>
+								<span>心率、运动、睡眠全掌控</span>
+								<strong>99元</strong>
+							</a>
+						</li>
+						<li>
+							<a class="bd-color3" href="#">
+								<img src="img/hero/3.jpg" alt="">
+								<em>米家压力IH电饭煲</em>
+								<span>5月17日早10点开售</span>
+								<strong>999元</strong>
+							</a>
+						</li>
+						<li>
+							<a class="bd-color4" href="#">
+								<img src="img/hero/4.jpg" alt="">
+								<em>小米随身蓝牙音箱</em>
+								<span>手机远程遥控，让普通电器变智能</span>
+								<strong>69元</strong>
+							</a>
+						</li>
+						<li>
+							<a class="bd-color5" href="#">
+								<img src="img/hero/5.jpg" alt="">
+								<em>移动电源10000mAh 高配版</em>
+								<span>支持USB Type-C充放电，双向快充</span>
+								<strong>149元</strong>
+							</a>
+						</li>
+						<li>
+							<a class="bd-color1" href="#">
+								<img src="img/hero/6.jpg" alt="">
+								<em>Yeelight床头灯</em>
+								<span>触摸式操作，给卧室1600万种颜色</span>
+								<strong>249元</strong>
+							</a>
+						</li>
+						<li>
+							<a class="bd-color2" href="#">
+								<img src="img/hero/7.jpg" alt="">
+								<em>小米路由器 mini</em>
+								<span>心率、运动、睡眠全掌控</span>
+								<strong>129元</strong>
+							</a>
+						</li>
+						<li>
+							<a class="bd-color3" href="#">
+								<img src="img/hero/8.jpg" alt="">
+								<em>Yeelight LED智能灯泡 彩光版</em>
+								<span>1600万种色彩，手机远程遥控</span>
+								<strong>99元</strong>
+							</a>
+						</li>
+						<li>
+							<a class="bd-color4" href="#">
+								<img src="img/hero/9.jpg" alt="">
+								<em>小米智能插座 基础版</em>
+								<span>手机远程遥控，让普通电器变智能</span>
+								<strong>49元</strong>
+							</a>
+						</li>
+						<li>
+							<a class="bd-color5" href="#">
+								<img src="img/hero/10.jpg" alt="">
+								<em>小米活塞耳机 基础版</em>
+								<span>全金属音腔，5色可选</span>
+								<strong>29元</strong>
+							</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+
+		</div>
+
+		<div class="main-bottom">
+			<div class="main-wrap">
+				
+				<!-- smart hardware -->
+				<div class="smart clear">
+
+					<div class="title-section-2 clear">
+						<h2>智能硬件</h2>
+						<p><a href="#">查看全部<span>></span></a></p>
+					</div>					
+
+					<div class="smart-left">
+						<ul>
+							<li class="shadow"><a href="#"><img src="img/smart/1.jpg" alt=""></a></li>
+						</ul>
+					</div>
+
+					<div class="smart-right">
+						<ul class="clear">
+							<li class="shadow"><a href="#"><img src="img/smart/2.png" alt=""></a></li>
+							<li class="shadow"><a href="#"><img src="img/smart/3.png" alt=""></a></li>
+							<li class="shadow"><a href="#"><img src="img/smart/4.png" alt=""></a></li>
+							<li class="shadow"><a href="#"><img src="img/smart/5.png" alt=""></a></li>
+							<li class="shadow"><a href="#"><img src="img/smart/6.png" alt=""></a></li>
+							<li class="shadow"><a href="#"><img src="img/smart/7.png" alt=""></a></li>
+							<li class="shadow"><a href="#"><img src="img/smart/8.png" alt=""></a></li>
+							<li class="shadow"><a href="#"><img src="img/smart/9.png" alt=""></a></li>
+						</ul>
+					</div>
+
+				</div>
+
+
+				<!-- match -->
+				<div class="section clear" id='section1'>
+					<div class="text">						
+						<ul>
+							<li class="title"><h2>搭配</h2></li>
+							<li class="tab">
+								<span class="active">热门</span>
+								<span>耳机音箱</span>
+								<span>电源</span>
+								<span>电池储存卡</span>
+							</li>
+						</ul>
+					</div>					
+
+					<div class="section-left">
+						<ul>
+							<li class="shadow"><a href="#"><img src="img/match/match-1.png" alt=""></a></li>
+							<li class="shadow"><a href="#"><img src="img/match/match-2.png" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="section-right tabCon1">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-3.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-4.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-5.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-6.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-7.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-8.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-9.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/match/match-10.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/match/match-11.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<div class="section-right tabCon2">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-12.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-13.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-14.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-15.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-16.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-17.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-18.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/match/match-19.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/match/match-20.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<div class="section-right tabCon3">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-21.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-22.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-23.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-24.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-25.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-26.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-27.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/match/match-28.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/match/match-29.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<div class="section-right tabCon4">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-30.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-31.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-32.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-33.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-34.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-34.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/match/match-36.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/match/match-37.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/match/match-38.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<!-- accessories -->
+				<div class="section clear" id='section2'>
+					<div class="text">						
+						<ul>
+							<li class="title"><h2>配件</h2></li>
+							<li class="tab">
+								<span class="active">热门</span>
+								<span>保护套</span>
+								<span>后盖</span>
+								<span>贴膜</span>
+								<span>其他配件</span>
+							</li>
+						</ul>
+					</div>					
+
+					<div class="section-left">
+						<ul>
+							<li class="shadow"><a href="#"><img src="img/accessories/accessories-1.png" alt=""></a></li>
+							<li class="shadow"><a href="#"><img src="img/accessories/accessories-2.png" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="section-right tabCon1">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-3.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-4.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-5.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-6.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-7.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-8.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-9.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/accessories/accessories-10.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/accessories/accessories-11.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<div class="section-right tabCon2">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-12.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-13.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-14.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-15.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-16.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-17.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-18.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/accessories/accessories-19.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/accessories/accessories-20.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<div class="section-right tabCon3">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-21.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-22.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-23.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-24.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-25.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-26.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-27.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/accessories/accessories-28.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/accessories/accessories-29.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<div class="section-right tabCon4">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-30.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-31.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-32.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-33.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-34.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-34.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-36.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/accessories/accessories-37.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/accessories/accessories-38.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<div class="section-right tabCon5">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-39.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-40.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-41.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-42.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-43.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-44.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/accessories/accessories-45.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/accessories/accessories-46.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/accessories/accessories-47.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<!-- peripherals -->
+				<div class="section clear" id='section3'>
+					<div class="text">						
+						<ul>
+							<li class="title"><h2>周边</h2></li>
+							<li class="tab">
+								<span class="active">热门</span>
+								<span>服装</span>
+								<span>米兔</span>
+								<span>生活周边</span>
+								<span>箱包</span>
+							</li>
+						</ul>
+					</div>					
+
+					<div class="section-left">
+						<ul>
+							<li class="shadow"><a href="#"><img src="img/peripherals/peripherals-1.png" alt=""></a></li>
+							<li class="shadow"><a href="#"><img src="img/peripherals/peripherals-2.png" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="section-right tabCon1">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-3.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-4.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-5.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-6.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-7.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-8.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-9.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/peripherals/peripherals-10.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/peripherals/peripherals-11.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<div class="section-right tabCon2">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-12.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-13.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-14.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-15.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-16.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-17.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-18.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/peripherals/peripherals-19.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/peripherals/peripherals-20.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<div class="section-right tabCon3">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-21.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-22.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-23.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-24.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-25.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-26.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-27.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/peripherals/peripherals-28.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/peripherals/peripherals-29.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<div class="section-right tabCon4">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-30.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-31.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-32.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-33.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-34.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-34.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-36.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/peripherals/peripherals-37.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/peripherals/peripherals-38.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<div class="section-right tabCon5">
+
+						<ul class="clear">
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-39.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-40.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-41.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-42.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-43.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-44.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li class="shadow">
+								<a href="#"><img src="img/peripherals/peripherals-45.png" alt=""></a>
+								<div class="comment">
+									<p>比我之前用的好太多了！非常实用，性价比高，推荐购买。</p>
+									<span>来自于江南的天空的评价</span>
+								</div>
+							</li>
+							<li>
+								<div class="little">
+									<div class="shadow">
+										<a href="#"><img src="img/peripherals/peripherals-46.png" alt=""></a>
+									</div>
+									<div class="shadow">
+										<a href="#"><img src="img/peripherals/peripherals-47.png" alt=""></a>
+									</div>								
+								</div>								
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+				
+				<!-- recommendation -->
+				<div class="recomend" id="recommend">
+					
+					<div class="title-section-1 clear">
+						<h2>为你推荐</h2>
+						<p>
+							<span class="prev"></span>
+							<span class="next"></span>
+						</p>
+					</div>
+					<div class="recommend-wrap clear">
+						<ul>
+							<li class="uptop">
+								<a href="#">
+									<img src="img/hero/1.jpg" alt="">
+									<em>小米盒子3 增强版</em>
+									<span>高端4K网络机顶盒</span>
+									<strong>399元</strong>
+								</a>
+							</li>
+							<li class="uptop">
+								<a href="#">
+									<img src="img/hero/2.jpg" alt="">
+									<em>小米手环 光感版</em>
+									<span>心率、运动、睡眠全掌控</span>
+									<strong>99元</strong>
+								</a>
+							</li>
+							<li class="uptop">
+								<a href="#">
+									<img src="img/hero/3.jpg" alt="">
+									<em>米家压力IH电饭煲</em>
+									<span>5月17日早10点开售</span>
+									<strong>999元</strong>
+								</a>
+							</li>
+							<li class="uptop">
+								<a href="#">
+									<img src="img/hero/4.jpg" alt="">
+									<em>小米随身蓝牙音箱</em>
+									<span>手机远程遥控，让普通电器变智能</span>
+									<strong>69元</strong>
+								</a>
+							</li>
+							<li class="uptop">
+								<a href="#">
+									<img src="img/hero/5.jpg" alt="">
+									<em>移动电源10000mAh 高配版</em>
+									<span>支持USB Type-C充放电，双向快充</span>
+									<strong>149元</strong>
+								</a>
+							</li>
+							<li class="uptop">
+								<a href="#">
+									<img src="img/hero/6.jpg" alt="">
+									<em>Yeelight床头灯</em>
+									<span>触摸式操作，给卧室1600万种颜色</span>
+									<strong>249元</strong>
+								</a>
+							</li>
+							<li class="uptop">
+								<a href="#">
+									<img src="img/hero/7.jpg" alt="">
+									<em>小米路由器 mini</em>
+									<span>心率、运动、睡眠全掌控</span>
+									<strong>129元</strong>
+								</a>
+							</li>
+							<li class="uptop">
+								<a href="#">
+									<img src="img/hero/8.jpg" alt="">
+									<em>Yeelight LED智能灯泡 彩光版</em>
+									<span>1600万种色彩，手机远程遥控</span>
+									<strong>99元</strong>
+								</a>
+							</li>
+							<li class="uptop">
+								<a href="#">
+									<img src="img/hero/9.jpg" alt="">
+									<em>小米智能插座 基础版</em>
+									<span>手机远程遥控，让普通电器变智能</span>
+									<strong>49元</strong>
+								</a>
+							</li>
+							<li class="uptop">
+								<a href="#">
+									<img src="img/hero/10.jpg" alt="">
+									<em>小米活塞耳机 基础版</em>
+									<span>全金属音腔，5色可选</span>
+									<strong>29元</strong>
+								</a>
+							</li>
+						</ul>
+					</div>				
+
+				</div>
+
+				<!-- hot -->
+				<div class="hot">
+					<div><h2>热评产品</h2></div>
+					<div class="hot-wrap">
+						<ul class="clear">
+							<li class="shadow"><a href="#"><img src="img/hot/1.png" alt=""></a></li>
+							<li class="shadow mgn"><a href="#"><img src="img/hot/2.png" alt=""></a></li>
+							<li class="shadow mgn"><a href="#"><img src="img/hot/3.png" alt=""></a></li>
+							<li class="shadow mgn"><a href="#"><img src="img/hot/4.png" alt=""></a></li>
+						</ul>						
+					</div>
+				</div>
+
+				<!-- other -->
+				<div class="other clear">
+
+					<div><h2>内容</h2></div>
+
+					<div class="other-wrap">
+						<div class="other-content shadow" id="other1">
+							<h4>图书</h4>
+							<div>
+								<span class="prev"></span>
+								<span class="next"></span>
+							</div>
+							<div class="pic">
+								<ul class="clear">
+									<li><a href="#"><img src="img/other/1.png" alt=""></a></li>
+									<li><a href="#"><img src="img/other/2.png" alt=""></a></li>
+									<li><a href="#"><img src="img/other/3.png" alt=""></a></li>
+									<li><a href="#"><img src="img/other/4.png" alt=""></a></li>
+								</ul>
+							</div>
+							<div class="circle">
+								<strong class="active"></strong><strong></strong><strong></strong><strong></strong>
+							</div>
+						</div>
+
+						<div class="other-content shadow mgn" id="other2">
+							<h4>主题</h4>
+							<div>
+								<span class="prev"></span>
+								<span class="next"></span>
+							</div>
+							<div class="pic">
+								<ul class="clear">
+									<li><a href="#"><img src="img/other/5.png" alt=""></a></li>
+									<li><a href="#"><img src="img/other/6.png" alt=""></a></li>
+									<li><a href="#"><img src="img/other/7.png" alt=""></a></li>
+									<li><a href="#"><img src="img/other/8.png" alt=""></a></li>
+								</ul>
+							</div>
+							<div class="circle">
+								<strong class="active"></strong><strong></strong><strong></strong><strong></strong>
+							</div>
+						</div>
+
+						<div class="other-content shadow mgn" id="other3">
+							<h4>游戏</h4>
+							<div>
+								<span class="prev"></span>
+								<span class="next"></span>
+							</div>
+							<div class="pic">
+								<ul class="clear">
+									<li><a href="#"><img src="img/other/9.png" alt=""></a></li>
+									<li><a href="#"><img src="img/other/10.png" alt=""></a></li>
+									<li><a href="#"><img src="img/other/11.png" alt=""></a></li>
+									<li><a href="#"><img src="img/other/12.png" alt=""></a></li>
+								</ul>
+							</div>
+							<div class="circle">
+								<strong class="active"></strong><strong></strong><strong></strong><strong></strong>
+							</div>
+						</div>
+
+						<div class="other-content shadow mgn" id="other4">
+							<h4>应用</h4>
+							<div>
+								<span class="prev"></span>
+								<span class="next"></span>
+							</div>
+							<div class="pic">
+								<ul class="clear">
+									<li><a href="#"><img src="img/other/13.png" alt=""></a></li>
+									<li><a href="#"><img src="img/other/14.png" alt=""></a></li>
+									<li><a href="#"><img src="img/other/15.png" alt=""></a></li>
+									<li><a href="#"><img src="img/other/16.png" alt=""></a></li>
+								</ul>
+							</div>
+							<div class="circle">
+								<strong class="active"></strong><strong></strong><strong></strong><strong></strong>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- video -->
+				<div class="video">
+
+					<div class="title-section-2 clear">
+						<h2>视频</h2>
+						<p><a href="#">查看全部<span>></span></a></p>
+					</div>
+
+					<div class="video-wrap">
+						<ul class="clear">
+							<li class="shadow"><a href="#"><img src="img/video/1.png" alt=""></a></li>
+							<li class="shadow mgn"><a href="#"><img src="img/video/2.png" alt=""></a></li>
+							<li class="shadow mgn"><a href="#"><img src="img/video/3.png" alt=""></a></li>
+							<li class="shadow mgn"><a href="#"><img src="img/video/4.png" alt=""></a></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+	
+	<!-- footer -->
+	<div class="footer">
+		<div class="footer-top">
+			<div class="wrap">
+
+				<div class="service">
+					<ul class="clear">
+						<li class="border-none"><a href="#">1小时快修服务</a></li>
+						<li class="border"><a href="#">7天无理由退货</a></li>
+						<li class="border"><a href="#">15天免费换货</a></li>
+						<li class="border"><a href="#">满150元包邮</a></li>
+						<li class="border"><a href="#">520余家售后网点</a></li>
+					</ul>
+				</div>
+				
+				<hr />
+
+				<div class="wrap-link clear">
+
+					<div class="link-box clear">
+
+						<dl class="link">
+							<dt>帮助中心</dt>
+							<dd>购物指南</dd>
+							<dd>支付方式</dd>
+							<dd>配送方式</dd>
+						</dl>
+						<dl class="link">
+							<dt>帮助中心</dt>
+							<dd>购物指南</dd>
+							<dd>支付方式</dd>
+							<dd>配送方式</dd>
+						</dl>
+						<dl class="link">
+							<dt>帮助中心</dt>
+							<dd>购物指南</dd>
+							<dd>支付方式</dd>
+							<dd>配送方式</dd>
+						</dl>
+						<dl class="link">
+							<dt>帮助中心</dt>
+							<dd>购物指南</dd>
+							<dd>支付方式</dd>
+							<dd>配送方式</dd>
+						</dl>
+						<dl class="link">
+							<dt>帮助中心</dt>
+							<dd>购物指南</dd>
+							<dd>支付方式</dd>
+							<dd>配送方式</dd>
+						</dl>
+						<dl class="link">
+							<dt>帮助中心</dt>
+							<dd>购物指南</dd>
+							<dd>支付方式</dd>
+							<dd>配送方式</dd>
+						</dl>
+
+					</div>
+
+					<div class="contact">
+						<h4>400-100-5678</h2>
+						<p class="date">周一至周日 8:00-18:00 <br />（仅收市话费）</p>
+						<p class="hour">24小时在线客服</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+
+			<div class="wrap clear">
+				<div class="text">
+					<p class="site">						
+						<a href="#">小米网</a>
+						<span>|</span>						
+						<a href="#">MIUI</a>
+						<span>|</span>						
+						<a href="#">米聊</a>
+						<span>|</span>						
+						<a href="#">多看书城</a>
+						<span>|</span>						
+						<a href="#">小米路由器</a>
+						<span>|</span>	
+						<a href="#">视频电话</a>
+						<span>|</span>					
+						<a href="#">小米后院</a>
+						<span>|</span>						
+						<a href="#">小米天猫店</a>
+						<span>|</span>						
+						<a href="#">小米淘宝直营店</a>
+						<span>|</span>						
+						<a href="#">小米网盟</a>
+						<span>|</span>						
+						<a href="#">问题反馈</a>
+						<span>|</span>						
+						<a href="#">Select Region</a>
+					</p>
+					<p>©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号</p>
+					<p>违法和不良信息举报电话：185-0130-1238, 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+				</div>
+				<div class="img">
+					<img src="img/seal.png" alt="">
+					<img src="img/v-logo-2.png" alt="">
+					<img src="img/v-logo-1.png" alt="">
+					<img src="img/v-logo-3.png" alt="">
+				</div>
+			</div>
+
+			<div class="author">
+				此网页仅作为个人练习demo，不作任务商用，如有版权问题，请联系：278678162@qq.com。
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript"src="js/index.js"></script>
+
+	<!--[if IE 6]>
+	<script src="js/DD_belatedPNG_0.0.8a.js"></script>
+	<script>
+		DD_belatedPNG.fix('.prev, .next');
+	</script>
+	<![endif]-->
+
+</body>
 </html>
